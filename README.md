@@ -12,3 +12,15 @@ ETHICS.md - (summary of A–E + control mapping references)
 /logs/policy_review.log - Policy review logs
 
 /docs/audit_review.md- Periodic audit review notes capturing compliance checks, risk analyses, and corrective actions 
+
+
+# Dependency Verification
+
+Each PQC library version used in this project is pinned and verified via checksum against the official repository.  
+Checksums are recorded in SBOM.txt for audit purposes.  
+
+Update Process:  
+1. Fetch updated library code or binaries from official source.  
+2. Verify checksum matches authorized version.  
+3. Update SBOM.txt and document changes in CHANGELOG.md.  
+4. Notify governance board via docs/cscrm_note.md of dependency update status.

@@ -1,0 +1,4 @@
+post-quantum-crypto-libs:
+  - kyber, version 1.0.3, https://pqcrypto.org/kyber.git
+  - dilithium, version 2.1.0, https://pqcrypto.org/dilithium.git
+  - sphincs+, version 3.2.0, https://pqcrypto.org/sphincsplus.git
