@@ -24,3 +24,7 @@ Update Process:
 2. Verify checksum matches authorized version.  
 3. Update SBOM.txt and document changes in CHANGELOG.md.  
 4. Notify governance board via docs/cscrm_note.md of dependency update status.
+
+
+# Standards Note:
+See docs/crosswalk.md for the crosswalk table. This capstone project aligns with CSF Outcomes PR.DS-01, PR.AA-03, PR.PS-04 and Zero Trust tenets “all are resources,” “dynamic/auth enforced,” “continuous info collection.” Audit log files and code comments in each module serve as evidence of compliance.
