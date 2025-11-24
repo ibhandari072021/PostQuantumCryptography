@@ -28,3 +28,28 @@ Update Process:
 
 # Standards Note:
 See docs/crosswalk.md for the crosswalk table. This capstone project aligns with CSF Outcomes PR.DS-01, PR.AA-03, PR.PS-04 and Zero Trust tenets “all are resources,” “dynamic/auth enforced,” “continuous info collection.” Audit log files and code comments in each module serve as evidence of compliance.
+
+
+# SMART Metrics (with pointers):
+
+Source Coverage Ratio: See docs/source_count.csv after each literature review.
+
+Reference Freshness Score: See docs/source_log.csv (auto-calculated annually/quarterly).
+
+Peer Review Validation %: See docs/peerreview_log.txt (updated post-review cycle).
+
+Privacy Incident Rate: Run src/paramleak_check.py; results in logs/test_output.log.
+
+De-ID Enforcement Ratio: See docs/data_deid.log after each new dataset run.
+
+Secure Storage Compliance: Run src/storage_policy_check.py; results in logs/storage_output.log.
+
+# Traceability Matrix:
+
+See docs/traceability_matrix.pdf for the mapping of project risks to controls, metrics, and evidence.
+
+Referenced Requirements/Assessment Statements:
+
+SP 800-171 Requirement IDs: 03.03.01,03.01.02, 03.05.01, 03.02.01, 03.02.03, 03.08.02, 03.13.01, 03.13.02, 03.01.07, 03.04.03
+
+SP 800-171A Assessment Statement ID: A.03.03.01.a
