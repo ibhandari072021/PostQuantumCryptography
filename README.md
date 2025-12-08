@@ -56,3 +56,4 @@ SP 800-171A Assessment Statement ID: A.03.03.01.a
 
 # Short pitch:
 docs/pitch/CYBR698_CapstoneProject_Presentation.pdf
+docs/pitch/CYBR698_CapstoneProject_Presentation_WithSpeakerNotes.pptx
