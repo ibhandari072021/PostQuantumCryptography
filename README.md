@@ -53,3 +53,6 @@ Referenced Requirements/Assessment Statements:
 SP 800-171 Requirement IDs: 03.03.01,03.01.02, 03.05.01, 03.02.01, 03.02.03, 03.08.02, 03.13.01, 03.13.02, 03.01.07, 03.04.03
 
 SP 800-171A Assessment Statement ID: A.03.03.01.a
+
+# Short pitch:
+docs/pitch/CYBR698_CapstoneProject_Presentation.pdf
